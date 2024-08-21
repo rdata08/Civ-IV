@@ -1,0 +1,80 @@
+(lang dune 3.10)
+(name civ)
+(sections (lib .) (libexec .) (doc ../../doc/civ))
+(files
+ (lib
+  (META
+   civ.a
+   civ.cma
+   civ.cmi
+   civ.cmt
+   civ.cmx
+   civ.cmxa
+   civ.ml
+   civ__Constants.cmi
+   civ__Constants.cmt
+   civ__Constants.cmti
+   civ__Constants.cmx
+   civ__Player.cmi
+   civ__Player.cmt
+   civ__Player.cmti
+   civ__Player.cmx
+   civ__State.cmi
+   civ__State.cmt
+   civ__State.cmti
+   civ__State.cmx
+   civ__Turn.cmi
+   civ__Turn.cmt
+   civ__Turn.cmti
+   civ__Turn.cmx
+   constants.ml
+   constants.mli
+   dune-package
+   opam
+   player.ml
+   player.mli
+   state.ml
+   state.mli
+   turn.ml
+   turn.mli))
+ (libexec (civ.cmxs))
+ (doc (README.md)))
+(library
+ (name civ)
+ (kind normal)
+ (archives (byte civ.cma) (native civ.cmxa))
+ (plugins (byte civ.cma) (native civ.cmxs))
+ (native_archives civ.a)
+ (requires yojson)
+ (main_module_name Civ)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name civ)
+     (visibility public)
+     (kind alias)
+     (source (path Civ) (impl (path civ.ml-gen))))
+    (name Civ)
+    (modules
+     (module
+      (obj_name civ__Constants)
+      (visibility public)
+      (source
+       (path Constants)
+       (intf (path constants.mli))
+       (impl (path constants.ml))))
+     (module
+      (obj_name civ__Player)
+      (visibility public)
+      (source (path Player) (intf (path player.mli)) (impl (path player.ml))))
+     (module
+      (obj_name civ__State)
+      (visibility public)
+      (source (path State) (intf (path state.mli)) (impl (path state.ml))))
+     (module
+      (obj_name civ__Turn)
+      (visibility public)
+      (source (path Turn) (intf (path turn.mli)) (impl (path turn.ml))))))
+   (wrapped true))))

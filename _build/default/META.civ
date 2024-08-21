@@ -1,0 +1,6 @@
+description = ""
+requires = "yojson"
+archive(byte) = "civ.cma"
+archive(native) = "civ.cmxa"
+plugin(byte) = "civ.cma"
+plugin(native) = "civ.cmxs"
