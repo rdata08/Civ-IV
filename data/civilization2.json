@@ -1,0 +1,65 @@
+{
+  "civilizations": 
+  [
+    {
+      "id": "Arabian",
+      "leaders": [
+        {"name": "Saladin"}
+      ],
+      "starting tech": [
+        {"name": "Mysticism", "cost": 50},
+        {"name": "The Wheel", "cost": 60}
+      ],
+      "unique unit": "Camel Archer",
+      "unique building": "Madrassa"
+    },
+    {
+      "id": "Aztec",
+      "leaders": [
+        {"name": "Montezuma"}
+      ],
+      "starting tech": [
+        {"name": "Hunting", "cost": 40},
+        {"name": "Mysticism", "cost": 50}
+      ],
+      "unique unit": "Jaguar",
+      "unique building": "Sacrificial Altar"
+    },    
+    {
+      "id": "Babylonian",
+      "leaders": [
+        {"name": "Hammurabi"}
+      ],
+      "starting tech": [
+        {"name": "Agriculture", "cost": 60},
+        {"name": "The Wheel", "cost": 60}
+      ],
+      "unique unit": "Bowman",
+      "unique building": "Garden"
+    },    
+    {
+      "id": "Byzantine",
+      "leaders": [
+        {"name": "Justinian I"}
+      ],
+      "starting tech": [
+        {"name": "Mysticism", "cost": 50},
+        {"name": "The Wheel", "cost": 60}
+      ],
+      "unique unit": "Cataphract",
+      "unique building": "Hippodrome"
+    },    
+    {
+      "id": "Carthaginian",
+      "leaders": [
+        {"name": "Hannibal"}
+      ],
+      "starting tech": [
+        {"name": "Fishing", "cost": 40},
+        {"name": "Mining", "cost": 50}
+      ],
+      "unique unit": "Numidian Cavalry",
+      "unique building": "Cothon"
+    } 
+  ]
+}

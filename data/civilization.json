@@ -1,0 +1,74 @@
+{
+  "civilizations": 
+  [
+    {
+      "id": "American",
+      "leaders": [
+        {"name": "Lincoln"}, 
+        {"name": "Roosevelt"}, 
+        {"name": "Washington"}
+      ],
+      "starting tech": [
+        {"name": "Agriculture", "cost": 60},
+        {"name": "Fishing", "cost": 40}
+      ],
+      "unique unit": "Navy SEAL",
+      "unique building": "Mall"
+    },
+    {
+      "id": "Chinese",
+      "leaders": [
+        {"name": "Mao Zedong"}, 
+        {"name": "Qin Shi Huang"}
+      ],
+      "starting tech": [
+        {"name": "Agriculture", "cost": 60},
+        {"name": "Mining", "cost": 50}
+      ],
+      "unique unit": "Cho-Ko-Nu",
+      "unique building": "Pavilion"
+    },    
+    {
+      "id": "English",
+      "leaders": [
+        {"name": "Elizabeth"}, 
+        {"name": "Churchill"}, 
+        {"name": "Victoria"}
+      ],
+      "starting tech": [
+        {"name": "Fishing", "cost": 40},
+        {"name": "Mining", "cost": 50}
+      ],
+      "unique unit": "Redcoat",
+      "unique building": "Stock Exchange"  
+    },    
+    {
+      "id": "French",
+      "leaders": [
+        {"name": "De Gaulle"}, 
+        {"name": "Louis XIV"}, 
+        {"name": "Napoleon"}
+      ],
+      "starting tech": [
+        {"name": "Agriculture", "cost": 60},
+        {"name": "The Wheel", "cost": 60}
+      ],
+      "unique unit": "Musketeer",
+      "unique building": "Salon"  
+    },    
+    {
+      "id": "Russian",
+      "leaders": [
+        {"name": "Peter"}, 
+        {"name": "Catherine"}, 
+        {"name": "Stalin"}
+      ],
+      "starting tech": [
+        {"name": "Hunting", "cost": 40},
+        {"name": "Mining", "cost": 50}
+      ],
+      "unique unit": "Cossack",
+      "unique building": "Research Institute"
+    } 
+  ]
+}
