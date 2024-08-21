@@ -74,3 +74,5 @@
 | China   | Mao Zedong, Qin Shi Huang      | Mountain 🗻, Grassland 🌾                     | Agriculture 🚜, Mining 🏭  | ![#ff5500](https://placehold.co/15x15/ff5500/ff5500.png) |
 | England | Elizabeth, Churchill, Victoria | Mountain 🗻, Ocean 🌊                         | Fishing 🎣, Mining 🏭      | ![#0f5e0b](https://placehold.co/15x15/0f5e0b/0f5e0b.png) |
 | France  | Louis XIV, De Gaulle, Napoleon | Grassland 🌾, Desert 🐪                       | Agriculture 🚜, Roads 🛣️   | ![#082785](https://placehold.co/15x15/082785/082785.png) |
+
+Full project commit contributions available upon request.
