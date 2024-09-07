@@ -1,4 +1,9 @@
 # Civ IV 🗺️
+
+![OCaml](https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white)
+![Testing](https://img.shields.io/badge/Testing-6DB33F?style=for-the-badge&logo=testinglibrary&logoColor=white)
+![Software Development](https://img.shields.io/badge/Software%20Development-0078D4?style=for-the-badge&logo=visualstudio&logoColor=white)
+
 ## INSTALL
 1. Navigate to the `civ` directory and build with `dune build`
 2. To play the game, type `make play`
