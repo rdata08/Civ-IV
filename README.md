@@ -1,6 +1,7 @@
 # Civ IV 🗺️
 
 ![OCaml](https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Testing](https://img.shields.io/badge/Testing-6DB33F?style=for-the-badge&logo=testinglibrary&logoColor=white)
 ![Software Development](https://img.shields.io/badge/Software%20Development-0078D4?style=for-the-badge&logo=visualstudio&logoColor=white)
 
